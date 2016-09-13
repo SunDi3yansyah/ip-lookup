@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @package		IP Geolocation https://git.io/vi2RV
+ * @author		Cahyadi Triyansyah (https://sundi3yansyah.com)
+ * @license		MIT
+ */
+
 $db = new mysqli('localhost', 'root', 'sundi3yansyah', 'ip');
 
 if ($db->connect_error)
