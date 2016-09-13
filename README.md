@@ -9,7 +9,7 @@
 
 #### PHP and HTML
 
-If use PHP required `ip.sql` import your database server, example i'am using MariaDB/MySQL
+If use PHP required `schema/db.sql` import your database server, example i'am using MariaDB/MySQL
 
 If you want to using other database server, you need schema like this:
 
