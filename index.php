@@ -191,7 +191,7 @@ $db->close();
         <input type="submit" class="button" name="submit" value="Discover">
     </form>
     <div class="credit">
-        <a href="https://sundi3yansyah.com">SunDi3yansyah</a> |
+        <a href="https://sundi3yansyah.com" target="_blank">SunDi3yansyah</a> |
         tebe4rt
     </div>
 </body>
