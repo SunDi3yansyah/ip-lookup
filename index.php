@@ -86,18 +86,20 @@ $db->close();
         background-color: #151515;
         color: #eee;
         font-family: 'Share Tech Mono', monospace;
-        user-select: none;
-        min-height: 98vh;
+        min-height: 95vh;
+        margin: 0;
+        padding: 0;
     }
     .info {
     	text-align: right;
-        p {
-            margin: 10px;
-        }
+    }
+    .info p {
+        margin-right: 3vh;
     }
     .result {
         position: absolute;
         top: 10vh;
+        margin-left: 1vw;
     }
     .attr {
         width: 8vw;
@@ -184,7 +186,7 @@ $db->close();
 <span class="attr">zip</span>         : <?php echo $zip ?><br>
 <?php endif ?>
     </div>
-    <form method="POST" class="form">
+    <form method="POST">
         <input type="text" class="ip" name="ip" required autocomplete="off" placeholder="127.0.0.1">
         <input type="submit" class="button" name="submit" value="Discover">
     </form>
