@@ -99,6 +99,11 @@ $db->close();
         position: absolute;
         top: 10vh;
     }
+    .attr {
+        width: 8vw;
+        display: inline-block;
+        text-transform: capitalize;
+    }
     .ip {
         background-color: #111;
         border: solid 1px #888;
@@ -151,36 +156,36 @@ $db->close();
 
 <?php if (!empty($data)): ?>
 	<?php foreach ($data as $d): ?>
-network    : <?php echo $d['network'] ?><br>
-city       : <?php echo $d['city'] ?><br>
-country    : <?php echo $d['country'] ?><br>
-countryCode: <?php echo $d['countryCode'] ?><br>
-isp        : <?php echo $d['isp'] ?><br>
-lat        : <?php echo $d['lat'] ?><br>
-lon        : <?php echo $d['lon'] ?><br>
-org        : <?php echo $d['org'] ?><br>
-query      : <?php echo $d['query'] ?><br>
-region     : <?php echo $d['region'] ?><br>
-regionName : <?php echo $d['regionName'] ?><br>
-timezone   : <?php echo $d['timezone'] ?><br>
-zip        : <?php echo $d['zip'] ?><br>
+<span class="attr">network</span>     : <?php echo $d['network'] ?><br>
+<span class="attr">city</span>        : <?php echo $d['city'] ?><br>
+<span class="attr">country</span>     : <?php echo $d['country'] ?><br>
+<span class="attr">countryCode</span> : <?php echo $d['countryCode'] ?><br>
+<span class="attr">isp</span>         : <?php echo $d['isp'] ?><br>
+<span class="attr">lat</span>         : <?php echo $d['lat'] ?><br>
+<span class="attr">lon</span>         : <?php echo $d['lon'] ?><br>
+<span class="attr">org</span>         : <?php echo $d['org'] ?><br>
+<span class="attr">query</span>       : <?php echo $d['query'] ?><br>
+<span class="attr">region</span>      : <?php echo $d['region'] ?><br>
+<span class="attr">regionName</span>  : <?php echo $d['regionName'] ?><br>
+<span class="attr">timezone</span>    : <?php echo $d['timezone'] ?><br>
+<span class="attr">zip</span>         : <?php echo $d['zip'] ?><br>
 	<?php endforeach ?>
 <?php endif ?>
 
 <?php if (!empty($from_API)): ?>
-network    : <?php echo $network ?><br>
-city       : <?php echo $city ?><br>
-country    : <?php echo $country ?><br>
-countryCode: <?php echo $countryCode ?><br>
-isp        : <?php echo $isp ?><br>
-lat        : <?php echo $lat ?><br>
-lon        : <?php echo $lon ?><br>
-org        : <?php echo $org ?><br>
-query      : <?php echo $query ?><br>
-region     : <?php echo $region ?><br>
-regionName : <?php echo $regionName ?><br>
-timezone   : <?php echo $timezone ?><br>
-zip        : <?php echo $zip ?><br>
+<span class="attr">network</span>     : <?php echo $network ?><br>
+<span class="attr">city</span>        : <?php echo $city ?><br>
+<span class="attr">country</span>     : <?php echo $country ?><br>
+<span class="attr">countryCode</span> : <?php echo $countryCode ?><br>
+<span class="attr">isp</span>         : <?php echo $isp ?><br>
+<span class="attr">lat</span>         : <?php echo $lat ?><br>
+<span class="attr">lon</span>         : <?php echo $lon ?><br>
+<span class="attr">org</span>         : <?php echo $org ?><br>
+<span class="attr">query</span>       : <?php echo $query ?><br>
+<span class="attr">region</span>      : <?php echo $region ?><br>
+<span class="attr">regionName</span>  : <?php echo $regionName ?><br>
+<span class="attr">timezone</span>    : <?php echo $timezone ?><br>
+<span class="attr">zip</span>         : <?php echo $zip ?><br>
 <?php endif ?>
     </div>
     <form method="POST" class="form">
