@@ -1,6 +1,6 @@
 #!/usr/local/bin/ruby
 
-# @package		IP Geolocation
+# @package		IP Geolocation https://git.io/vi2RV
 # @author		Cahyadi Triyansyah (https://sundi3yansyah.com)
 # @license		MIT
 
