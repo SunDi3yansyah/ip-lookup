@@ -8,13 +8,13 @@ require "net/http"
 require "json" # gem install json
 require "terminal-table" # gem install terminal-table
 
-print "Enter the IP address you want: "
+print "Enter the IP Address you want : "
 
 input = gets.strip;
 
 if input.empty?
 
-	puts "Harus diisi"
+	puts "Sorry, your search IP Address field is required. Please try again."
 
 else
 
