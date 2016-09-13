@@ -158,15 +158,13 @@ $db->close();
 	<?php foreach ($data as $d): ?>
 <span class="attr">network</span>     : <?php echo $d['network'] ?><br>
 <span class="attr">city</span>        : <?php echo $d['city'] ?><br>
-<span class="attr">country</span>     : <?php echo $d['country'] ?><br>
-<span class="attr">countryCode</span> : <?php echo $d['countryCode'] ?><br>
+<span class="attr">country</span>     : <?php echo $d['country'] ?> (<?php echo $d['countryCode'] ?>)<br>
 <span class="attr">isp</span>         : <?php echo $d['isp'] ?><br>
 <span class="attr">lat</span>         : <?php echo $d['lat'] ?><br>
 <span class="attr">lon</span>         : <?php echo $d['lon'] ?><br>
 <span class="attr">org</span>         : <?php echo $d['org'] ?><br>
 <span class="attr">query</span>       : <?php echo $d['query'] ?><br>
-<span class="attr">region</span>      : <?php echo $d['region'] ?><br>
-<span class="attr">regionName</span>  : <?php echo $d['regionName'] ?><br>
+<span class="attr">region</span>      : <?php echo $d['regionName'] ?> (<?php echo $d['region'] ?>)<br>
 <span class="attr">timezone</span>    : <?php echo $d['timezone'] ?><br>
 <span class="attr">zip</span>         : <?php echo $d['zip'] ?><br>
 	<?php endforeach ?>
@@ -175,15 +173,13 @@ $db->close();
 <?php if (!empty($from_API)): ?>
 <span class="attr">network</span>     : <?php echo $network ?><br>
 <span class="attr">city</span>        : <?php echo $city ?><br>
-<span class="attr">country</span>     : <?php echo $country ?><br>
-<span class="attr">countryCode</span> : <?php echo $countryCode ?><br>
+<span class="attr">country</span>     : <?php echo $country ?> (<?php echo $countryCode ?>)<br>
 <span class="attr">isp</span>         : <?php echo $isp ?><br>
 <span class="attr">lat</span>         : <?php echo $lat ?><br>
 <span class="attr">lon</span>         : <?php echo $lon ?><br>
 <span class="attr">org</span>         : <?php echo $org ?><br>
 <span class="attr">query</span>       : <?php echo $query ?><br>
-<span class="attr">region</span>      : <?php echo $region ?><br>
-<span class="attr">regionName</span>  : <?php echo $regionName ?><br>
+<span class="attr">region</span>      : <?php echo $regionName ?> (<?php echo $region ?>)<br>
 <span class="attr">timezone</span>    : <?php echo $timezone ?><br>
 <span class="attr">zip</span>         : <?php echo $zip ?><br>
 <?php endif ?>
