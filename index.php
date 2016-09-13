@@ -131,6 +131,8 @@ $db->close();
         position: absolute;
         bottom: 1%;
         right: 3vw;
+        color: #117711;
+        text-decoration: none;
     }
     .credit a {
         color: #117711;
@@ -186,7 +188,8 @@ zip        : <?php echo $zip ?><br>
         <input type="submit" class="button" name="submit" value="Discover">
     </form>
     <div class="credit">
-        <a href="https://sundi3yansyah.com">SunDi3yansyah</a>
+        <a href="https://sundi3yansyah.com">SunDi3yansyah</a> |
+        tebe4rt
     </div>
 </body>
 </html>
