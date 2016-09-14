@@ -47,7 +47,7 @@ gem install json
 gem install terminal-table
 ```
 
-Than run file `api.rb`
+Then run file `api.rb`
 
 ``` sh
 ruby api.rb
