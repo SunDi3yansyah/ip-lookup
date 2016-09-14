@@ -79,7 +79,7 @@ https://git.io/vi2RV
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>IP Geolocation find that you want</title>
-    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="stylesheet" href="dist/style.css">
 </head>
 <body>
     <div class="info">
