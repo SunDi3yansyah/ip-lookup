@@ -47,9 +47,12 @@ if ($ip)
 				$zip         = $API['zip'];
 
 				$sql = "INSERT INTO ips (network, city, country, countryCode, isp, lat, lon, org, query, region, regionName, status, timezone, zip) VALUES ('$network', '$city', '$country', '$countryCode', '$isp', '$lat', '$lon', '$org', '$query', '$region', '$regionName', '$status', '$timezone', '$zip')";
-				if ($db->query($sql) != TRUE) {
+				if ($db->query($sql) != TRUE)
+				{
 				    $message = "Error: " . $sql . "<br>" . $conn->error;
-				} else {
+				}
+				else
+				{
 					$from_API = TRUE;
 				}
 			}
