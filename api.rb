@@ -8,20 +8,13 @@ require "net/http"
 require "json"
 require "terminal-table"
 
-print "Enter the IP Address you want : "
-
+print "Enter the IP Address : "
 input = gets.strip
-
 if input.empty?
-
 	puts "Sorry, your search IP Address field is required. Please try again."
-
 else
-
 	api = JSON.parse(Net::HTTP.get(URI("http://ip-api.com/json/#{input}")))
-
 	if api["status"] == "success"
-
 		array = [
 		  ["Network", api["as"]],
 		  ["City", api["city"]],
@@ -37,20 +30,13 @@ else
 		  ["Timezone", api["timezone"]],
 		  ["Zip", api["zip"]],
 		]
-
 	else
-
 		array = [
 		  ["Message", api["message"]],
 		  ["Request", api["query"]],
 		]
-
 	end
-
 	result = Terminal::Table.new :headings => ["String", "Value"], :rows => array
-
 	puts "\n", result, "\n"
-
 	puts "Get repository : https://git.io/vi2RV", "\n"
-
 end
