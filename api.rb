@@ -5,12 +5,12 @@
 # @license		MIT
 
 require "net/http"
-require "json" # gem install json
-require "terminal-table" # gem install terminal-table
+require "json"
+require "terminal-table"
 
 print "Enter the IP Address you want : "
 
-input = gets.strip;
+input = gets.strip
 
 if input.empty?
 

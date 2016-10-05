@@ -41,10 +41,7 @@ If you want to using other database server, you need schema like this:
 
 You must install gem and dependency gems:
 ```
-gem install json
-```
-```
-gem install terminal-table
+gem install json terminal-table
 ```
 
 Then run file `api.rb`
