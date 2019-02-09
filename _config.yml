@@ -2,7 +2,7 @@ title: IP
 description: IP Geolocation find that you want
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-midnight
+theme: jekyll-theme-modernist
 
 gems:
   - jekyll-mentions
