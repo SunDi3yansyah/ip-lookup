@@ -59,5 +59,8 @@ PR
 
 #### Python
 
-PR
+Run file `api.py`
 
+```
+python api.py
+```
